@@ -1,4 +1,4 @@
-module.exports = function override(config, env) {
+module.exports = function override(config) {
   if(!config.module.rules) {
     config.module.rules = []
   }

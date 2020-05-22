@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import './index.scss';
+import './index.css';
 import EncodeWorker from '../workers/encode.worker';
 import DecodeWorker from '../workers/decode.worker';
 
-function Index(props: any) {
+function EncodePage() {
   
   const [fileList, setFileList] = useState([])
 
@@ -38,7 +38,7 @@ function Index(props: any) {
   }
   // 加密
   const encodeFile = (file: File) => {
-    const encodeWorker = new EncodeWorker('');
+    const encodeWorker = new EncodeWorker();
     encodeWorker.postMessage({file, tokenInfo: {fileName: file.name, key: 'axyIIVwxqRnPnqc9RDRzXg=='}})
     encodeWorker.onmessage = function(e) {
       let {content, done} = e.data;
@@ -55,7 +55,7 @@ function Index(props: any) {
   }
   //解密
   const decodeFile = (file: String | ArrayBuffer, name: String, type: String) => {
-    const decodeWorker = new DecodeWorker('');
+    const decodeWorker = new DecodeWorker();
     decodeWorker.postMessage({file, key: 'axyIIVwxqRnPnqc9RDRzXg==', type})
     decodeWorker.onmessage = function(e) {
       let {content, done} = e.data;
@@ -81,8 +81,8 @@ function Index(props: any) {
     // console.log(file)
     const reader = new FileReader()
     reader.onload = function() {
-      console.log(reader.result)
-      // downloadFile(reader.result, file.name)
+      // console.log(reader.result)
+      downloadFile(reader.result, file.name)
     }
     reader.readAsDataURL(file)
   }
@@ -119,4 +119,4 @@ function Index(props: any) {
   )
 }
 
-export default Index
+export default EncodePage

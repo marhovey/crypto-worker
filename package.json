@@ -11,11 +11,9 @@
     "@types/react": "^16.9.0",
     "@types/react-dom": "^16.9.0",
     "crypto-js": "^4.0.0",
-    "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
-    "sass-loader": "^8.0.2",
     "typescript": "~3.7.2",
     "worker-loader": "^2.0.0"
   },
@@ -41,6 +39,7 @@
     ]
   },
   "devDependencies": {
+    "fs": "0.0.1-security",
     "react-app-rewired": "^2.1.6"
   }
 }
