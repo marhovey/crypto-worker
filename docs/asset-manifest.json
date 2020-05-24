@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/marhovey/crypto-worker/static/css/main.ced96cbf.chunk.css",
-    "main.js": "/marhovey/crypto-worker/static/js/main.8201fa46.chunk.js",
-    "main.js.map": "/marhovey/crypto-worker/static/js/main.8201fa46.chunk.js.map",
-    "runtime-main.js": "/marhovey/crypto-worker/static/js/runtime-main.a735f9a3.js",
-    "runtime-main.js.map": "/marhovey/crypto-worker/static/js/runtime-main.a735f9a3.js.map",
-    "static/js/2.e6ab6ef9.chunk.js": "/marhovey/crypto-worker/static/js/2.e6ab6ef9.chunk.js",
-    "static/js/2.e6ab6ef9.chunk.js.map": "/marhovey/crypto-worker/static/js/2.e6ab6ef9.chunk.js.map",
-    "63516821bb88a6c7dc14.worker.js": "/marhovey/crypto-worker/63516821bb88a6c7dc14.worker.js",
-    "63516821bb88a6c7dc14.worker.js.LICENSE.txt": "/marhovey/crypto-worker/63516821bb88a6c7dc14.worker.js.LICENSE.txt",
-    "63516821bb88a6c7dc14.worker.js.map": "/marhovey/crypto-worker/63516821bb88a6c7dc14.worker.js.map",
-    "b73cdb6732732a7e368c.worker.js": "/marhovey/crypto-worker/b73cdb6732732a7e368c.worker.js",
-    "b73cdb6732732a7e368c.worker.js.LICENSE.txt": "/marhovey/crypto-worker/b73cdb6732732a7e368c.worker.js.LICENSE.txt",
-    "b73cdb6732732a7e368c.worker.js.map": "/marhovey/crypto-worker/b73cdb6732732a7e368c.worker.js.map",
-    "index.html": "/marhovey/crypto-worker/index.html",
-    "precache-manifest.274e0ee832f19be64a9c68ce8788865c.js": "/marhovey/crypto-worker/precache-manifest.274e0ee832f19be64a9c68ce8788865c.js",
-    "service-worker.js": "/marhovey/crypto-worker/service-worker.js",
-    "static/css/main.ced96cbf.chunk.css.map": "/marhovey/crypto-worker/static/css/main.ced96cbf.chunk.css.map",
-    "static/js/2.e6ab6ef9.chunk.js.LICENSE.txt": "/marhovey/crypto-worker/static/js/2.e6ab6ef9.chunk.js.LICENSE.txt"
+    "main.css": "/docsstatic/css/main.ced96cbf.chunk.css",
+    "main.js": "/docsstatic/js/main.26897df0.chunk.js",
+    "main.js.map": "/docsstatic/js/main.26897df0.chunk.js.map",
+    "runtime-main.js": "/docsstatic/js/runtime-main.7b019167.js",
+    "runtime-main.js.map": "/docsstatic/js/runtime-main.7b019167.js.map",
+    "static/js/2.e6ab6ef9.chunk.js": "/docsstatic/js/2.e6ab6ef9.chunk.js",
+    "static/js/2.e6ab6ef9.chunk.js.map": "/docsstatic/js/2.e6ab6ef9.chunk.js.map",
+    "1726e248801ecd72e5c5.worker.js": "/docs1726e248801ecd72e5c5.worker.js",
+    "1726e248801ecd72e5c5.worker.js.LICENSE.txt": "/docs1726e248801ecd72e5c5.worker.js.LICENSE.txt",
+    "1726e248801ecd72e5c5.worker.js.map": "/docs1726e248801ecd72e5c5.worker.js.map",
+    "bfb8af33fd45155cd179.worker.js": "/docsbfb8af33fd45155cd179.worker.js",
+    "bfb8af33fd45155cd179.worker.js.LICENSE.txt": "/docsbfb8af33fd45155cd179.worker.js.LICENSE.txt",
+    "bfb8af33fd45155cd179.worker.js.map": "/docsbfb8af33fd45155cd179.worker.js.map",
+    "index.html": "/docsindex.html",
+    "precache-manifest.32a6a71fe72950cc3456e6f5c389846e.js": "/docsprecache-manifest.32a6a71fe72950cc3456e6f5c389846e.js",
+    "service-worker.js": "/docsservice-worker.js",
+    "static/css/main.ced96cbf.chunk.css.map": "/docsstatic/css/main.ced96cbf.chunk.css.map",
+    "static/js/2.e6ab6ef9.chunk.js.LICENSE.txt": "/docsstatic/js/2.e6ab6ef9.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a735f9a3.js",
+    "static/js/runtime-main.7b019167.js",
     "static/js/2.e6ab6ef9.chunk.js",
     "static/css/main.ced96cbf.chunk.css",
-    "static/js/main.8201fa46.chunk.js"
+    "static/js/main.26897df0.chunk.js"
   ]
 }

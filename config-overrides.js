@@ -1,5 +1,6 @@
 const paths = require('react-scripts/config/paths');
 const path = require('path');
+paths.publicUrlOrPath = '/docs';
 paths.appBuild = path.join(path.dirname(paths.appBuild), 'docs')
 module.exports = function override(config) {
   if(!config.module.rules) {
